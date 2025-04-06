@@ -1,0 +1,3 @@
+imagenet_data/train/*
+imagenet_data/val/*
+.DS_Store
