@@ -12,7 +12,7 @@ In this project, we use the ImageNet-1k dataset, which consists of 1.2 million t
 To download the ImageNet data, you need to have an account on the ImageNet website. 
 
 > [!NOTE]
-> You need to have an account on the ImageNet website and accept the terms and conditions to download the dataset. After accepting the terms and conditions, you can use the already downloaded dataset on the cluster. Please refer to the [Shared Data/Model Repository](https://handbook.eng.kempnerinstitute.harvard.edu/s1_high_performance_computing/storage_and_data_transfer/shared_data_repository.html) of the handbook for more details on how to use the shared data repository. If you use this data on the cluster, you can skip the following sections until the "Environment" section.
+> To access the dataset, you must have an account on the ImageNet website and accept the terms and conditions. Once you've completed this step, you can use the pre-downloaded dataset available on the cluster. For details on accessing shared datasets, refer to the [Shared Data/Model Repository]((https://handbook.eng.kempnerinstitute.harvard.edu/s1_high_performance_computing/storage_and_data_transfer/shared_data_repository.html) ) section of the handbook. If you're using the shared dataset on the cluster, you may skip the following sections and proceed directly to the Environment section.
 
 Create an account here: [Imagenet Website](https://image-net.org/index.php)
 
