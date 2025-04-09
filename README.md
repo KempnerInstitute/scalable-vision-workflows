@@ -4,7 +4,7 @@ Efficient and Scalable ResNet Training on ImageNet is a benchmarking project foc
 
 ## Available Workflows
 
-| Workflow                                   | Model     | Dataset     | Tags                                             |
-| ------------------------------------------ | --------- | ----------- | ------------------------------------------------ |
-| [imagenet1k_resnet50](imagenet1k_resnet50) | ResNet-50 | ImageNet-1k | `A100`, `DDP`                                    |
+| Workflow                                   | Model     | Dataset     |  Max Tested GPUs  |         Tags                 |
+| ------------------------------------------ | --------- | ----------- | ----------------- | ---------------------------- |
+| [imagenet1k_resnet50](imagenet1k_resnet50) | ResNet-50 | ImageNet-1k |       64          | `A100`, `DDP`                |
 
