@@ -1,6 +1,6 @@
-# Efficient and Scalable Computer Vision Model Training
+# Efficient and Scalable Vision Model Training
 
-Efficient and Scalable ResNet Training on ImageNet is a benchmarking project focused on training ResNet-50 efficiently across multiple A100 GPUs using PyTorch’s Distributed Data Parallel (DDP) on the SLURM-managed Kempner AI Cluster. The project demonstrates best practices for distributed training, including proper SLURM integration, environment setup, and optimized data loading. It includes a fast, multithreaded extraction utility for ImageNet preprocessing and evaluates scalability by measuring wall-clock time and validation accuracy at different GPU scales. The goal is to achieve strong performance and near-linear scaling while preserving model accuracy, providing reproducible results for both research and operational use.
+Efficient and Scalable Vision Model Training is a benchmarking and workflow-oriented project designed to help users train deep vision models efficiently across multiple A100 or H100 GPUs using PyTorch’s Distributed Data-Parallel (DDP) on SLURM-managed clusters. Rather than being tied to a specific dataset or architecture, the project allows users to plug in available or their own model and dataset configurations. It demonstrates best practices for scalable training, including SLURM-native job management, environment setup, and optimized data loading strategies. The goal is to achieve strong performance and near-linear scaling while maintaining flexibility and reproducibility across a variety of vision workloads on the Kempner AI cluster.
 
 ## Available Workflows
 
