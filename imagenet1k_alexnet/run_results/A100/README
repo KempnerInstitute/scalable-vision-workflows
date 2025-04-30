@@ -4,9 +4,7 @@ for detailed information on software setup and data preparation.  This section h
 To run AlexNet using the provided Slurm job script, set the following environment variable:
 
 ```
-
 ARCHITECTURE=alexnet
-
 ```
 
 In the provided Slurm job script, set the variable ARCHITECTURE=alexnet. 
