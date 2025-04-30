@@ -27,6 +27,7 @@ WORKERS=16             # Number of CPU workers for data loading
 
 # Environment Variables --------
 # Environment Variables --------
+PROJECT_DIR=/n/netscratch/kempner_dev/Lab/bdesinghu/Vision/AlexNet/
 CONDA_ENV=/n/holylfs06/LABS/kempner_shared/Everyone/common_envs/miniconda3/envs/pytorch_image # <--- Conda environment path
 
 
@@ -37,7 +38,7 @@ CONDA_ENV=/n/holylfs06/LABS/kempner_shared/Everyone/common_envs/miniconda3/envs/
 
 PYTHON_BINARY=$CONDA_ENV/bin/python
 DATA_DIR="/n/holylfs06/LABS/kempner_shared/Lab/data/imagenet_1k"
-RESNET_SCRIPT_DIR=./main.py
+SCRIPT_DIR=$PROJECT_DIR/scripts/main.py
 
 
 echo "----------------------- *** -----------------------"
@@ -88,7 +89,7 @@ start_time=$(date +%s)
 echo "Start time: $(date)"
 
 CMD="srun $PYTHON_BINARY \
-    $RESNET_SCRIPT_DIR \
+    $SCRIPT_DIR \
     -a $ARCHITECTURE \
     --epochs $EPOCHS \
     --batch-size $BATCH_SIZE \
