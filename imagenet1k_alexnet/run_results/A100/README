@@ -1,4 +1,4 @@
-Please refer the Please refer to the [ResNet benchmarking section](https://github.com/KempnerInstitute/scalable-vision-workflows/tree/main/imagenet1k_resnet50)
+Please refer the Please refer to the [ResNet benchmarking section](imagenet1k_resnet50)
 for detailed information on software setup and data preparation.  This section highlights the key differences involved in running the AlexNet model, as well as its execution time, compared to ResNet.
 
 To run AlexNet using the provided Slurm job script, set the following environment variable:
