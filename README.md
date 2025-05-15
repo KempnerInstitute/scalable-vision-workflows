@@ -7,4 +7,5 @@ Efficient and Scalable Vision Model Training is a benchmarking and workflow-orie
 | Workflow                                   | Model     | Dataset     |  Max Tested GPUs  |         Tags                 |
 | ------------------------------------------ | --------- | ----------- | ----------------- | ---------------------------- |
 | [imagenet1k_resnet50](imagenet1k_resnet50) | ResNet-50 | ImageNet-1k |       64          | `A100`, `DDP`                |
+| [imagenet1k_alexnet](imagenet1k_alexnet)   | AlexNet   | ImageNet-1k |       4          | `A100`, `DDP`                |
 
